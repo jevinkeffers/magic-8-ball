@@ -34,11 +34,11 @@ const EightBall = (props) => {
     return (
         <>
         <Title>
-            Magic Eight Ball
+            Magic 8-Ball
         </Title>
         <form onSubmit={(event) => _handleSubmit(event)}>
             <Question>
-            What is your question??
+            Ask a Yes or No Question
             <p>
             <input
                 type="text"
@@ -47,7 +47,7 @@ const EightBall = (props) => {
             />
             </p>
             </Question>
-            <button type="submit">Ask the Magic 8 Ball</button>
+            <button type="submit">Magic 8-Ball says ...</button>
         </form>
         {!!answer ? <Answer answer={answer} /> : null}
         </>

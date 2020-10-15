@@ -30,7 +30,7 @@ const EightBallAnswer = styled.div`
     return (
         <>
         <EightBallAnswer>
-            <NumberEight>8</NumberEight>Magic 8 Ball Says: {props.answer}
+            <NumberEight>8</NumberEight>{props.answer}
         </EightBallAnswer>
         </>
     );
